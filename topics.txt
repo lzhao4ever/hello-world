@@ -1,5 +1,8 @@
+NN
+BP
 CNN
 RNN
+BPTT
 LSTM
 Memory Network
 Recursive NN
