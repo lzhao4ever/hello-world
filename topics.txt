@@ -1,0 +1,6 @@
+CNN
+RNN
+LSTM
+Memory Network
+Recursive NN
+
