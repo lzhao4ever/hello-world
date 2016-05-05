@@ -1,0 +1,101 @@
+1. Create a local repo.
+
+ git clone https://github.com/lzhao4ever/hello-world.git
+
+ git init
+ git status
+ git add <file>	  
+ git commit -m "Initial import of all project files."
+
+2. Review history
+
+ git log --oneline --graph
+
+ git reflog
+
+ git show <hash#>
+
+3. Branch
+
+ git branch --list
+ git branch --all
+
+ git fetch
+ git checkout --track origin/another-branch
+
+ git checkout master
+ git branch <feature>
+ git checkout <feature>
+
+ git checkout -b <feature>
+ git rebase master
+
+4. Edit
+
+ git add --update
+ git add --all
+
+5. Remote
+
+ git remote add <nickname> <url>
+ git push -u <nickname> master
+ 
+ git push --set-upstream <nickname> <branch>
+
+ git pull --rebase=preserve
+
+ git fetch --all
+
+6. Recover
+
+ git add <file>
+ git commit ..
+ git checkout --<file> 
+
+ git add <file>
+ git reset HEAD <file>
+
+ git reset <commit#>
+
+ git add --all
+ git clean -fd
+
+ git revert <commit#>
+
+ git rebase --interactive <commit#>
+
+ git merge ...
+ git reset --merge ORIG-HEAD
+
+7. Review remote
+
+ git log --oneline <remote/branch>
+ git diff <curr-branch> ... <remote/branch>
+ git checkout --tracking <remote/branch>
+
+8. Merge
+
+ git checkout <feature>
+ vim <file>
+ git add <file>
+ git commit -m "..."
+ git checkout master
+ git merge --no-ff <feature>
+ git cherry-pick -x <commit#>
+ git branch --delete <feature>
+
+9. Routine 
+
+ git checkout master
+ git pull --rebase=preserve
+ git checkout <feature>
+ git rebase master
+
+ vim ...
+ git add ...
+ git commit ...
+
+ git checkout master
+ git merge --no-ff <feature>
+ git push
+

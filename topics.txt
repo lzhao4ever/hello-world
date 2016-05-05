@@ -4,6 +4,7 @@ CNN
 RNN
 BPTT
 LSTM
+GRU
 Memory Network
 Recursive NN
 
