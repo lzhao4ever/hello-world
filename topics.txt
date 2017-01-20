@@ -1,10 +1,15 @@
-NN
-BP
-CNN
-RNN
-BPTT
-LSTM
-GRU
-Memory Network
-Recursive NN
+Y. Bengio, A. Courville, P. Vincent, "Representation Learning: A Review and New Perspective", arXiv:1206.5538v3, 2014.
 
+N. Srivastava, E. Mansimov, R. Salakhutdinov, "Unsupervised Learning of Video Representation Using LSTMs", arXiv:1502.04681v3, ICML 2015.
+
+W. Lotter, G. Kreiman, D. Cox, "Deep Predictive Coding Networks for Video Prediction and Unsupervised Learning", arXiv:1605.08104v1, 2016.
+
+C. Finn, I. Goodfellow, S. Levine, "Unsupervised Learning for Phisical Interaction through Video Prediction", arXiv:1605.07157v2, 2016.
+
+Y. Li, M. Paluri, J. M. Rehg, Piotr Dollar, "Unsupervised Learning of Edges", arXiv:1511.04166v2, 2016.
+
+T. Xue, J. Wu, K. L. Bouman, W. T. Freeman, "Visual Dynamics: Probabilistic Future Frame Synthesis via Cross Convolutional Networks", NIPS 2016.
+
+X. Wang, A. Farhadi, A. Gupta, "Actions ~ Transformations", CVPR 2016.
+~                                                                               
+~                                                            
